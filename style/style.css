@@ -111,7 +111,6 @@
 .container {
     position: static;
     width: 946px;
-    /* height: 336px; */
     display: flex;
     flex-direction: column;
     padding: 48px;
@@ -157,9 +156,6 @@
     align-items: flex-start;
     padding: 0px;
     flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
     margin: 32px 0px;
 }
 
@@ -244,3 +240,179 @@
 }
 
 /* tech stack style in css starts here */
+.target-heading,
+.target-description {
+    justify-content: center;
+    text-align: center;
+    position: static;
+    margin-top: 20px;
+}
+
+.stack-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+}
+
+.skill-1 {
+    position: static;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.skill-2 {
+    position: static;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.skill-3 {
+    position: static;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.stack-title,
+.stack-description {
+    margin: 16px 0px;
+}
+
+.stack-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+span a {
+    text-decoration: underline;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* support section css code */
+.parent-support-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.support-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 314px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+
+}
+
+.support-heading {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 26px 0px;
+}
+
+.support-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.input-field {
+    position: static;
+    width: 548px;
+    height: 57px;
+    position: static;
+    width: 548px;
+    height: 57px;
+    margin: 0px 16px;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.submit-btn {
+    position: static;
+    width: 120px;
+    height: 58px;
+    position: static;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    margin: 0px 16px;
+    background: rgb(255, 255, 255);
+}
+
+/* Footer link section */
+.footer-link-section {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    margin-left: 230px;
+    margin-top: 45px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+.main-footer-container {
+    position: static;
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 0px;
+}
