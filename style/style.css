@@ -60,7 +60,6 @@ a {
 .contact-me-btn {
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    position: static;
     width: 208px;
     height: 66px;
     padding: 21px 24px 21px 24px;
@@ -108,7 +107,6 @@ a {
 }
 
 .development-container {
-    position: static;
     width: 852px;
     height: 115px;
     display: flex;
@@ -120,7 +118,6 @@ a {
 }
 
 .container {
-    position: static;
     width: 946px;
     display: flex;
     flex-direction: column;
@@ -135,7 +132,6 @@ a {
 .sub-container-3 {
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
-    position: static;
     width: 850px;
     height: 240px;
     display: flex;
@@ -154,7 +150,6 @@ a {
 .sub-container1-text,
 .sub-container2-text,
 .sub-container3-text {
-    position: static;
     width: 477px;
     height: 140px;
     display: flex;
@@ -166,7 +161,6 @@ a {
 }
 
 .learn-more {
-    position: static;
     width: 149px;
     height: 48px;
     display: flex;
@@ -263,7 +257,6 @@ a {
 .target-description {
     justify-content: center;
     text-align: center;
-    position: static;
     text-wrap: balance;
     margin-top: 20px;
 }
@@ -276,7 +269,6 @@ a {
 }
 
 .skill-1 {
-    position: static;
     width: 364px;
     height: 300px;
     padding: 40px;
@@ -289,7 +281,6 @@ a {
 }
 
 .skill-2 {
-    position: static;
     width: 364px;
     height: 300px;
     padding: 40px;
@@ -301,7 +292,6 @@ a {
 }
 
 .skill-3 {
-    position: static;
     width: 364px;
     height: 300px;
     padding: 40px;
@@ -382,10 +372,8 @@ span a {
 }
 
 .input-field {
-    position: static;
     width: 548px;
     height: 57px;
-    position: static;
     width: 548px;
     height: 57px;
     margin: 0px 16px;
@@ -396,10 +384,8 @@ span a {
 }
 
 .submit-btn {
-    position: static;
     width: 120px;
     height: 58px;
-    position: static;
     width: 120px;
     height: 58px;
     border-radius: 8px;
@@ -425,7 +411,6 @@ span a {
 }
 
 .main-footer-container {
-    position: static;
     width: 1140px;
     height: 36px;
     display: flex;
